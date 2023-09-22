@@ -7,7 +7,7 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 body{
@@ -155,4 +155,75 @@ header{
     margin-bottom: 60px;
 }
 
-/* commit teste */
+/* ------Cards Team------- */
+.cards-team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 200px;
+    padding: 100px;
+    text-align: center;
+}
+
+.card-team{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    gap: 20px;
+    color: var(--cor-secundaria);
+}
+
+.card-team h2{
+    font-size: 35px;
+}
+
+.card-team p{
+    font-size: 20px;
+}
+
+.card-team-img img{
+    width: 300px;
+    
+}
+
+.card-team-img{
+    position: relative;
+}
+
+
+.icone-card img{
+    position: absolute;
+    width: 100px;
+    right: 0;
+    bottom: 0;
+}
+
+/* -----Beaultiful ------- */
+.beautiful{
+    background: var(--cor-fundo);
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    color: var(--cor-secundaria);
+}
+
+.beautiful-conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.beautiful-conteudo h1{
+    font-size: 40px;
+}
+
+.beautiful-conteudo p{
+    font-size: 30px;
+    max-width: 800px;
+}
+
+.beautiful-imgs{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
