@@ -85,12 +85,13 @@ header{
     color: #fff;
 }
 
-.mini-section h1{
+.mini-section h1, .best h1{
     font-size: 50px;
     letter-spacing: 2px;
+    padding: 15px;
 }
 
-.mini-section p{
+.mini-section p, .best p{
     font-size: 20px;
 }
 
@@ -98,7 +99,8 @@ header{
 .cards{
     display: flex;
     flex-wrap: wrap;
-    margin-top: 100px;
+    margin-top: 150px;
+    margin-bottom: 150px;
     gap: 20px;
 }
 
@@ -132,4 +134,23 @@ header{
 }
 .card:nth-child(2) h2{
     color: var(--cor-primaria);
+}
+
+/* ------CARDS 2------- */
+.best{
+    background-color: var(--cor-fundo);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    color: var(--cor-secundaria);
+}
+
+.best img{
+    width: 350px;   
+}
+
+.best .cards{
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
