@@ -1,0 +1,63 @@
+@media (max-width: 576px){
+  
+
+    .cabecalho{
+        flex-direction: column;
+        justify-content: center;
+        padding: 40px;
+    }
+    .cabecalho-logo{
+        margin: 0 auto;
+    }
+
+    .cabecalho-conteudo{
+        flex-direction: column;
+    }
+
+    .cabecalho-conteudo div{
+        width: 100%;
+        align-items: center;
+        padding: 20px 0;
+        text-align: center;
+    }
+    .cabecalho-conteudo p{
+        padding-top: 10px;
+        max-width: 400px;
+    }
+
+    .mini-section{
+        text-align: center;
+    }
+
+    .sec-4{
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+        padding: 50px 20px;
+    }
+
+    .sec-4-col1{
+        width: 100%;
+    }
+
+    .sec-4-col2{
+        width: 100%;
+    }
+
+    .footer .footer-row1{
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+    .footer .footer-row1 div{
+        justify-content: center;
+    }
+
+    .footer .footer-row1 .footer-col1, .footer-col2, .footer-col3{
+        width: 100%;
+    }
+
+    .footer-social{
+        justify-content: center;
+    }
+}

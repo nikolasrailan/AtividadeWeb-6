@@ -7,22 +7,21 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
 }
 
-body{
-    height: 2000px;
-}
+
 
 /* ------CABECALHO------- */
 header{
     background: var(--cor-primaria);
 }
-
+/* 
 .container{
     width: 1600px;
     margin: 0 auto;
-}
+} */
 
 .cabecalho{
     display: flex;
@@ -44,10 +43,6 @@ header{
     color: #fff;
 }
 
-.cabecalho-conteudo{
-    display: flex;
-}
-
 .cabecalho-conteudo div{
     width: 50%;
     display: flex;
@@ -65,13 +60,13 @@ header{
 }
 
 .cabecalho-conteudo div h1{
-    font-size: 70px;
+    font-size: 4.3rem;
     font-weight: lighter;
     text-transform: uppercase;
 }
 
 .cabecalho-conteudo div p{
-    font-size: 15px;
+    font-size: 0.9rem;
     font-weight: lighter;
 }
 
@@ -86,19 +81,20 @@ header{
 }
 
 .mini-section h1, .best h1{
-    font-size: 50px;
+    font-size: 3.1rem;
     letter-spacing: 2px;
     padding: 15px;
 }
 
 .mini-section p, .best p{
-    font-size: 20px;
+    font-size: 1.3rem;
 }
 
 /* ------CARDS------- */
 .cards{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     margin-top: 150px;
     margin-bottom: 150px;
     gap: 20px;
@@ -115,7 +111,7 @@ header{
 }
 
 .card h2{
-    font-size: 30px;
+    font-size: 1.8rem;
     letter-spacing: 2px;
 }
 
@@ -174,11 +170,11 @@ header{
 }
 
 .card-team h2{
-    font-size: 35px;
+    font-size: 2.1rem
 }
 
 .card-team p{
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .card-team-img img{
@@ -214,11 +210,11 @@ header{
 }
 
 .beautiful-conteudo h1{
-    font-size: 40px;
+    font-size: 2.5rem;
 }
 
 .beautiful-conteudo p{
-    font-size: 30px;
+    font-size: 1.8rem;
     max-width: 800px;
 }
 
@@ -227,3 +223,91 @@ header{
     flex-direction: column;
     gap: 20px;
 }
+
+.sec-4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  
+    width: 100%;
+    background-color: var(--cor-terciaria);
+    padding: 100px 50px;
+  }
+  
+  .sec-4-col1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  .sec-4-col2 {
+    width: 50%;
+  
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+  
+  .sec-4-col2 .row-1,
+  .row-2 {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .footer .footer-row1 {
+    background-color: var(--cor-secundaria);
+    padding: 30px 50px;
+    color: white;
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .footer .footer-row1 .footer-col1,
+  .footer-col2,
+  .footer-col3 {
+    width: 30%; /* 100 / 3 = 33.3*/
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .footer-title {
+    font-size: 1.3rem;
+  }
+  
+  .footer-col2 > div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .footer-col2 .contact-address,
+  .contact-phone,
+  .contact-email {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .footer-social {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .footer .footer-row2 {
+    padding: 20px 50px;
+    background-color: var(--cor-primaria);
+    color: white;
+    text-align: center;
+    font-weight: bold;
+  }
+  
